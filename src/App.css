@@ -1,0 +1,449 @@
+#root{
+  max-width: 100vw;
+  margin: 0 auto;
+  background: rgb(10, 0, 19);
+}
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.box{
+  width: 100vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.upper_background{
+  width: 100%;
+  height: 100vh;
+  background: url(https://yasio.dev/assets/img/bg.87635d9.webp);
+  background-size: 100% 100%;
+  position: relative;
+}
+nav{
+  width: 100%;
+  height: 60px;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.name{
+  width: 20%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.nav_name{
+  font-size: 30px;
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+}
+.Bigarrow{
+  font-size: 37px;
+  color: #5918DF;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.chapters{
+  width: 23%;
+  height: 100px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.Introduction{
+  color: #988e9f;
+  font-size: 20px;
+}
+.Introduction span{
+  color: #988e9f;
+  font-size: 20px;
+}
+.Work{
+  color: #988e9f;
+  font-size: 20px;
+}
+.Work span{
+  color: #988e9f;
+  font-size: 20px;
+}
+.About{
+  color: #988e9f;
+  font-size: 20px;
+}
+.About span{
+  color: #988e9f;
+  font-size: 20px;
+}
+.Contact{
+  color: #988e9f;
+  font-size: 20px;
+}
+.Contact span{
+  color: #988e9f;
+  font-size: 20px;
+}
+.scroll{
+  width: 3400px;
+  height: 2px;
+  background: #5918DF;
+  rotate: -90deg;
+  z-index: 1;
+  position: absolute;
+  top: 2040px;
+  left: -1400px;
+}
+.dotone{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #5918DF;
+  background: #14121c;
+  z-index: 2;
+  position: absolute;
+  top: 37px;
+  left: -5px;
+}
+.continue{
+  width: 100px;
+  height: 20px;
+  text-align: center;
+  color: #5918DF;
+  font-size: 17px;
+  rotate: -90deg;
+  z-index: 2;
+  text-shadow: 0 3px 14px #181619,0 -3px 14px #181619,3px 0 14px #181619,-3px 0 14px #181619,0 3px 6px #181619,0 -3px 6px #181619,3px 0 6px #181619,-3px 0 6px #181619;
+  position: absolute;
+  top: 400px;
+  left: -54px;
+}
+header{
+  width: 1200px;
+  height: 400px;
+  position: absolute;
+  top: 300px;
+  left: 300px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.header_text{
+  width: 1150px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.thinner{
+  width: 900px;
+  font-size: 45px;
+}
+.header_text span{
+  color: #5918DF;
+}
+.header_text h3{
+  color: #988e9f;
+}
+main{
+  width: 100%;
+  height: 1400px;
+  background: #1a1527;
+  position: relative;
+}
+.work{
+  width: 100px;
+  height: 40px;
+  position: relative;
+  left: 305px;
+  color: #988e9f;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 300;
+  font-size: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.example{
+  width: 350px;
+  height: 500px;
+  background: #24e33a;
+  z-index: 5;
+  transform-style: preserve-3d;
+  transition: transform 0.4s;
+  will-change: transform;
+  cursor: pointer;
+}
+.example1{
+  position: absolute;
+  top: 100px;
+  left: 280px;
+}
+.example2{
+  position: absolute;
+  top: 150px;
+  left: 1300px;
+}
+.example3{
+  position: absolute;
+  top: 500px;
+  left: 730px;
+}
+.example4{
+  position: absolute;
+  top: 800px;
+  left: 200px;
+}
+.example5{
+  position: absolute;
+  top: 750px;
+  left: 1200px;
+}
+.about{
+  width: 100%;
+  height: 900px;
+  background: #14121c;
+}
+.point{
+  width: 100px;
+  height: 40px;
+  position: relative;
+  left: 290px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.point span{
+  color: #988e9f;
+  font-size: 13px;
+}
+.point{
+  color: #988e9f;
+  font-size: 10px;
+}
+.info{
+  width: 1600px;
+  height: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  left: 240px;
+}
+.numbers{
+  width: 30px;
+  height: 100%;
+  line-height: 29px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.info_innertext{
+  width: 1500px;
+  height: 100%;
+  line-height: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.barelyvisible{
+  color: #3b3553;
+}
+.purple{
+  color: #5918df;
+}
+.yellow{
+  color: #eeff31;
+}
+.gray{
+  color: #78707e;
+}
+.red{
+  color:#e3244c;
+}
+.teal{
+  color: #24e394;
+}
+.green{
+  color: #24e33a;
+}
+.orange{
+  color: #e39d24;
+}
+footer{
+  width: 100%;
+  height: 500px;
+  background: #0e0d10;
+  position: relative;
+}
+.footer_point{
+  color: #988e9f;
+  font-size: 10px;
+  position: absolute;
+  left: 318px;
+  bottom: 450px;
+}
+.find_me_here{
+  width: 1000px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  position: absolute;
+  left: 318px;
+  bottom: 200px;
+}
+.socials{
+  width: 100px;
+  height: 180px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.social{
+  width: 120px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.mail_me{
+  width: 300px;
+  height: 60px;
+  border-radius: 40px;
+  font-size: 25px;
+  background: #5918DF;
+  color: white;
+  transition: 0.5s;
+  border: none;
+  position: relative;
+  left: 318px;
+  bottom: -350px;
+}
+.mail_me:hover{
+  width: 325px;
+  height: 70px;
+  cursor: pointer;
+}
+.made_by{
+  color: #988e9f;
+  position: relative;
+  left: 310px;
+  bottom: -410px;
+}
+.logo{
+  width: 30px;
+  height: 30px;
+  background-size: 100% 100%;
+}
+.link{
+  text-decoration: none;
+  color: #5918DF;
+}
+.part{
+  font-family: "Roboto Mono", monospace, "Lato", sans-serif;
+  font-weight: 300;
+}
+.showing{
+  font-family: "Roboto Mono", monospace, "Lato", sans-serif;
+  font-weight: 400;
+  color: #988e9f;
+}
+.mail_form {
+  position: absolute;
+  left: 950px;
+  bottom: 100px;
+  width: 350px;
+  min-height: 260px;
+  background: #181619;
+  border-radius: 24px;
+  box-shadow: 0 4px 32px #000a 0.2;
+  padding: 32px 28px 24px 28px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  z-index: 30;
+  color: #988e9f;
+  font-family: "Roboto Mono", monospace, "Lato", sans-serif;
+  border: 2px solid #5918DF;
+  transform: translateX(-60px);
+  opacity: 0;
+  pointer-events: none;
+  transition: transform 0.4s cubic-bezier(.77,0,.18,1), opacity 0.3s;
+}
+
+.mail_form.show {
+  transform: translateX(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.mail_form.hide {
+  transform: translateX(-60px);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.mail_form h3 {
+  color: #5918DF;
+  font-size: 22px;
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
+.mail_form label {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 15px;
+}
+
+.mail_form input[type="email"],
+.mail_form input[type="text"] {
+  background: #14121c;
+  border: 1px solid #3b3553;
+  border-radius: 8px;
+  color: #fff;
+  padding: 8px 12px;
+  font-size: 15px;
+  font-family: inherit;
+  margin-bottom: 6px;
+  outline: none;
+  transition: border 0.2s;
+}
+
+.mail_form input[type="email"]:focus,
+.mail_form input[type="text"]:focus {
+  border: 1.5px solid #5918DF;
+}
+
+.mail_form .sendie {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  font-size: 18px;
+  background: #5918DF;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.mail_form .sendie:hover {
+  background: #7d3cff;
+}
+.lang-menu button:hover {
+  background: #23203a;
+  color: #fff;
+}

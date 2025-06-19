@@ -6,7 +6,7 @@ import Boldosmall from "./assets/Boldosmall.png"
 import Furniture from "./assets/Furniture.png"
 import Furnica from "./assets/Furnica.png"
 import Ukraine from "./assets/Ukraine.png"
-import Tiffany from "./assets/tiffany.png"
+import Tiffany from "./assets/Tiffany.png"
 
 const translations = {
   en: {
